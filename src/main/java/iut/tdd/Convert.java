@@ -8,7 +8,20 @@ public class Convert {
 		case "0": return "zero" ;  
 		case "1": return "Un" ;  
 		case "2": return "Deux" ;  
-		case "3": return "Trois" ;  
+		case "3": return "Trois" ;
+		case "4": return "Quatre" ;  
+		case "5": return "Cinq" ;  
+		case "6": return "Six" ;  
+		case "7": return "Sept" ;
+		case "8": return "Huit" ;  
+		case "9": return "Neuf" ;  
+		case "10": return "Dix" ;  
+		case "11": return "Onze" ;
+		case "12": return "Douze" ;  
+		case "13": return "Treize" ;  
+		case "14": return "quatorze" ;  
+		case "15": return "Quinze" ;
+		
 		default:  return "Default"  ;    
 		
 		}
