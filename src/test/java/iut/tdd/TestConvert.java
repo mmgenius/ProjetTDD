@@ -19,7 +19,7 @@ public class TestConvert {
 	@Test
 	public void test_num3text_un(){
 		
-		Assert.assertEquals("11", new Convert().num2text("Onze"));
+		Assert.assertEquals("11", new Convert().text2num("Onze"));
 		
 	
 	}
