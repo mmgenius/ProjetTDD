@@ -18,12 +18,14 @@ public class TestConvert {
 	}
 	@Test
 	public void test_num3text_un(){
-		//Given
 		
-		//When
+		Assert.assertEquals("11", new Convert().num2text("Onze"));
 		
-		
-		//Then
+	
+	}
+	@Test
+	public void test_num3text_deux(){
+		Assert.assertEquals("13", new Convert().num2text("Treize"));
 	}
 	
 }

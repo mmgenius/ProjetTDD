@@ -21,12 +21,21 @@ public class Convert {
 		case "13": return "Treize" ;  
 		case "14": return "quatorze" ;  
 		case "15": return "Quinze" ;
+		case "16": return "Seize" ;  
+		case "17": return "Dix Sept" ;  
+		case "18": return "Dix Huit" ;  
+		case "19": return "Dix neuf" ;
 		
 		default:  return "Default"  ;    
 		
 		}
 	}
 	public static String text2num(String input) {
+		
+		
+		
+		
+		
 		return "zero";
 	}
 }
